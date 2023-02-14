@@ -7,7 +7,7 @@
 
 {% set table_exists=source_relation is not none  %}
 
-{% if table_exists %}
+{% if true %}
 
 {{
     fivetran_utils.union_data(
